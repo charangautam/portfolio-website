@@ -1,0 +1,165 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    background-color: #F9FCE1;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #1B2021;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 19px;
+}
+
+span {
+    color: #CE1212;
+}
+
+a {
+    color: #112031;
+    text-decoration: none;
+    font-size: larger;
+    -webkit-transition: font-weight .4s ease-in-out;
+    -o-transition: font-weight .4s ease-in-out;
+    transition: font-weight .4s ease-in-out;
+}
+
+a:visited {
+    /* visited link */
+    color: #05676e;
+}
+
+a:hover, a:focus {
+    /* No underlining when hovering over a link */
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:active {
+    /* selected link */
+    color: black;
+}
+
+button {
+    border: none;
+    display: inline-block;
+    background-color:  #112031;
+    font-family: inherit;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 7px;
+    border-bottom: 3px solid rgb(0, 0, 0, 0.3);
+    -webkit-transition: opacity 1s ease-in-out 6ms;
+    -o-transition: opacity 1s ease-in-out 6ms;
+    transition: opacity 1s ease-in-out 6ms;
+}
+
+.resume-button {
+    border: none;
+    display: inline-block;
+    background-color:  #112031;
+    font-family: inherit;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 7px;
+    border-bottom: 3px solid rgb(0, 0, 0, 0.3);
+    -webkit-transition: opacity 1s ease-in-out 6ms;
+    -o-transition: opacity 1s ease-in-out 6ms;
+    transition: opacity 1s ease-in-out 6ms;
+}
+
+button:hover, button:focus, .resume-button:hover, .resume-button:focus {
+    cursor: pointer;
+    opacity: 0.79;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.page-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding:  20px;
+    border-bottom: 2px double #506D84;
+}
+
+.page-header__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100px;
+            flex: 0 1 100px;
+}
+
+.page-header__item:last-child {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    text-align: right;
+}
+
+.logo__img {
+    width: 60px;
+    height: 60px;
+    -o-object-fit: contain;
+       object-fit: contain;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-left: 16px;
+    font-size: 19px;
+}
+
+.page-footer {
+    clear: both;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 70px;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+}
+
+.page-content {
+    padding: 20px;
+}

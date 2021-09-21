@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/portfolio_logo.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.production.css">
+    <link rel="stylesheet" type="text/css" href="./css/contact.css">
+</head>
+<body>
+    <header class="page-header">
+        <img src="./img/portfolio_logo.png" alt="Picture of a rocket blasting off. Symbolizes bigger and better things to come." class="logo__img page-header__item">
+        <nav role="navigation" class="main-nav page-header__item"">
+            <ul role="menubar"  class="nav-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem" class="nav-list__item">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="nav-list__item">About</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="nav-list__item">My Work</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="nav-list__item nav-list__item--active">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="page-content">
+        <h1>Contact</h1>
+        <div>
+            Charan Gautam<br>
+            Full Stack Developer <br>
+            Calgary, Canada<br>
+            <br>
+            Tel <a href="tel:403-988-3190">403-988-3190</a><br>
+            <a href="mailto:charan.gtm24@gmail.com">charan.gtm24@gmail.com</a>
+        </div>
+        <br>
+        <a href="mailto:charan.gtm24@gmail.com">Contact me</a>
+    
+        <form action="" method="post" id="contact-form">
+            <label class="contact-label" for="contact-email">Email: </label>
+            <input type="email" id="contact-email" required>
+    
+            <label class="contact-label" for="contact-number">Number: </label>
+            <input type="tel" id="contactNumber" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+    
+            <label class="contact-label" for="contact-message">Message: </label>
+            <textarea maxlength="240" id="contact-message" required></textarea>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer class="page-footer">
+        <p>Find me on</p>
+        <div class="social-media">
+            <a href="https://github.com/charangautam" target="_blank"><img src="./img/github_icon.svg" alt="Github link" class="social-link"></a>
+            <a href="https://www.instagram.com/charangautam/" target="_blank"><img src="./img/instagram_icon.svg" alt="Instagram link" class="social-link"></a>
+            <a href="https://www.linkedin.com/in/charan-gautam-bb3683212/" target="_blank"><img src="./img/linkedin_icon.svg" alt="LinkedIn link" class="social-link"></a>
+        </div>
+    <footer>
+    <script src="./js/tota11y.min.js"></script>
+</body>
+</html>
