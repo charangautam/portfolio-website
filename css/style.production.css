@@ -163,3 +163,15 @@ table {
 .page-content {
     padding: 20px;
 }
+
+@media all and (max-width: 750px) {
+    a {
+        font-size: 19px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    a {
+        font-size: 16px;
+    }
+}
