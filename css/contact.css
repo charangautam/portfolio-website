@@ -1,7 +1,5 @@
 h3 {
     margin: 0 auto;
-    color: #161616;
-    font-weight: 700;
 }
 
 h3:first-child {
@@ -18,28 +16,15 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
     margin: 30px auto 0;
     padding: 10px;
     border-radius: 11px;
 }
 
 .contact-label {
-    font-size: 20px;
+    font-size: 18px;
     margin: 16px 0 4px;
-    font-weight: 600;
-    align-self:inherit;
-}
-
-.contact-input {
-    width: 70%;
-    outline: none;
-    border-radius: 6px;
-    border: #CEE5D0 groove;
-}
-
-form button {
-    font-size: 19px;
-    width: 60%;
 }
 
 #contact-form button {
