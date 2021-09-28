@@ -21,9 +21,10 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-variant: small-caps;
     text-decoration: underline;
+    font-weight: 600;
 }
 
 p {
