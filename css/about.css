@@ -1,6 +1,31 @@
+table {
+    margin: 50px auto 0;
+}
+
+
+th {
+    background-color: #CEE5D0;
+    font-size: 20px;
+    margin-right: 30px; 
+    border: 1px solid black;
+    padding: 4px;
+    font-size: 20px;
+}
+
+td {
+  width: 150px;
+  padding: 4px;
+  border: 1px solid black;
+  font-size: 17px;
+}
+
 .page-content.about {
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.resume-button {
+    margin-bottom: 20px;
 }
 
 @keyframes color-change {
