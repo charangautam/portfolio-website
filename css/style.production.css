@@ -21,8 +21,9 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-variant: small-caps;
+    font-weight: 600;
     text-decoration: underline;
 }
 
@@ -156,9 +157,14 @@ table {
     margin-top: 70px;
 }
 
+.page-footer p {
+    font-size: 21px;
+    font-weight: 500;
+}
+
 .social-link {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 .page-content {
